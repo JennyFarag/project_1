@@ -209,6 +209,7 @@ nav.navbar {
    
 }
 
+/* Custom left alignment for the container of the Medical Experts heading */
 .left-align-container {
     text-align: left;
     width: 100%;
@@ -218,4 +219,9 @@ nav.navbar {
 .left-align-text {
     display: inline-block; /* Ensures the text does not take full width */
     margin-left: 30px; /* Add margin if necessary for better alignment */
+}
+
+/* Custom left alignment for paragraphs in the card text */
+.left-align-paragraph {
+    text-align: left;
 }
