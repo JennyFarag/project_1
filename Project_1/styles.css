@@ -209,3 +209,13 @@ nav.navbar {
    
 }
 
+.left-align-container {
+    text-align: left;
+    width: 100%;
+}
+
+/* Custom left alignment for the Medical Experts heading */
+.left-align-text {
+    display: inline-block; /* Ensures the text does not take full width */
+    margin-left: 30px; /* Add margin if necessary for better alignment */
+}
