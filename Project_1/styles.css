@@ -138,7 +138,7 @@ nav.navbar {
     padding: 20px;
 }
 .medical-experts-section{
-    background-color: #f0f8f8;
+    background-color: #80b09a;
     padding: 20px;
 }
 
@@ -185,6 +185,8 @@ nav.navbar {
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Ensures content is spread evenly */
+    padding:35px;
+    margin:10px;
 }
 
 /* Optionally, ensure that all cards have the same height */
@@ -204,5 +206,6 @@ nav.navbar {
 
 .card {
     width: 100%; /* Ensure cards do not exceed the width of their containers */
+   
 }
 
