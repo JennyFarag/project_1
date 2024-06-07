@@ -152,9 +152,6 @@ nav.navbar {
 }
 
 /* Adjust the spacing between the boxes */
-.col-md-4 {
-    margin: 0 10px;
-}
 
 /* Optional: Center the boxes vertically */
 .services-header {
@@ -182,4 +179,30 @@ nav.navbar {
   
 
 
+
+/* tentative CSS for services section */ 
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is spread evenly */
+}
+
+/* Optionally, ensure that all cards have the same height */
+.card-body {
+    height: 100%;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col-md-4 {
+    padding-right: 15px; /* Adjust as necessary */
+    padding-left: 15px; /* Adjust as necessary */
+}
+
+.card {
+    width: 100%; /* Ensure cards do not exceed the width of their containers */
+}
 
