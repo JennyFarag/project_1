@@ -226,3 +226,35 @@ nav.navbar {
     text-align: left;
 }
 
+/* Modal styles */
+.modal .modal-dialog {
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.modal .modal-content {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.3rem;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+
+.modal .modal-header,
+.modal .modal-body,
+.modal .modal-footer {
+    padding: 1rem;
+}
+
+.modal .modal-header {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal .modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.modal .modal-footer {
+    border-top: 1px solid #dee2e6;
+    text-align: right;
+}
