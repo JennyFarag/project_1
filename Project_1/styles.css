@@ -167,6 +167,10 @@ nav.navbar {
     margin: 0 auto; /* Center horizontally */
 }
 
+#location-section .left-align {
+    text-align: left;
+}
+
 
   
 @font-face {
