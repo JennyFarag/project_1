@@ -1,6 +1,7 @@
 document.getElementById('bookButton').addEventListener('click', function() {
     // Get form element
     const form = document.getElementById('appointmentForm');
+<<<<<<< HEAD
 
 <<<<<<< HEAD
     document.getElementById('consultationForm').addEventListener('submit', function(event) {
@@ -25,6 +26,9 @@ document.getElementById('bookButton').addEventListener('click', function() {
 
 
 =======
+=======
+
+>>>>>>> f1957ec1f9bc3022f260fe8f24e368ee0de434cf
     // Check if the form is valid
     if (!form.checkValidity()) {
         form.classList.add('was-validated'); // This will show validation feedback if any field is invalid
