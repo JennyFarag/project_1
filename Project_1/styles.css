@@ -65,6 +65,58 @@ nav.navbar {
 }
 
 
+/* About us section */
+
+.about-section {
+    background-color: #f0f8f8;
+    padding: 20px;
+}
+
+.about-text {
+    padding: 50px;
+}
+
+/* Location  section */
+
+#location-section .left-align {
+    text-align: left;
+}
+
+
+/* Services  section */
+.services-header {
+    margin-bottom: 30px;
+}
+
+.card-body {
+    height: 100%;
+}
+
+.card {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding:35px;
+    margin:10px;
+}
+
+.col-md-4 {
+    border-radius: 50px;
+    display: flex;
+    padding-right: 15px; 
+    padding-left: 15px; 
+}
+
+.col-md-4 .card {
+    background-color: #F5F5F5; 
+    border-radius: 50px; 
+}
+
+
+
+/* Medical experts  section */
+
 
 
 
@@ -82,18 +134,13 @@ nav.navbar {
     margin-top: 10px;
 }
 
-.about-section {
-    background-color: #68B691;
-    padding: 20px;
-}
+
 .consultation-section{
     background-color: #f0f8f8;
     padding: 20px;
    
 }
-.about-text {
-    padding: 50px;
-}
+
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -154,11 +201,7 @@ header.container-fluid {
     height: auto;
 }
 
-/* About Section */
-.about-section {
-    background-color: #f0f8f8;
-    padding: 20px;
-}
+
 .medical-experts-section{
     background-color: #80b09a;
     padding: 20px;
@@ -173,12 +216,8 @@ header.container-fluid {
     justify-content: center;
 }
 
-/* Adjust the spacing between the boxes */
 
-/* Optional: Center the boxes vertically */
-.services-header {
-    margin-bottom: 30px;
-}
+
 
 
 .container.my-5 {
@@ -186,9 +225,6 @@ header.container-fluid {
     margin: 0 auto; /* Center horizontally */
 }
 
-#location-section .left-align {
-    text-align: left;
-}
 
 
   
@@ -202,29 +238,17 @@ header.container-fluid {
 
 
 
-/* tentative CSS for services section */ 
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Ensures content is spread evenly */
-    padding:35px;
-    margin:10px;
-}
 
-/* Optionally, ensure that all cards have the same height */
-.card-body {
-    height: 100%;
-}
+
+
+
 
 .row {
     margin-right: 0;
     margin-left: 0;
 }
 
-.col-md-4 {
-    padding-right: 15px; /* Adjust as necessary */
-    padding-left: 15px; /* Adjust as necessary */
-}
+
 
 .card {
     width: 100%; /* Ensure cards do not exceed the width of their containers */
