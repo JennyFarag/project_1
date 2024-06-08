@@ -2,21 +2,71 @@
 
 /* Custom Fonts */
 
-/* Green Rectangle  */
-.green-rectangle {
+/* header section */
+.grey-rectangle {
     background-color: #B1B1B1; 
     padding: 20px; 
     font-size: 20px; 
 }
 
-/* Phone number and email styles */
-.green-rectangle .contact-info {
+.grey-rectangle .contact-info {
     font-size: 16px;
 }
 
-.red-rectangle {
+.welcome-message {
+    font-size: 22px;
+    font-weight: bold;
+}
+.contact-info {
+    font-size: 15px;
+}
+
+
+/* Navbar section */
+
+.white-rectangle {
     background-color: #FFFFFF; 
 }
+.main-image1 {
+    max-width: 350px;
+    max-height: 350px;
+
+}
+
+nav.navbar {
+    background-color: #d3d3d3; /* Light grey */
+} 
+.navbar-light .navbar-nav .nav-link {
+    color: #343a40;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-light .navbar-nav .btn-success {
+    background-color: #68B691;
+}
+
+.navbar-light .navbar-nav .btn-success:hover {
+    background-color: #4d9372;
+}
+
+/* Main page section */
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.buttongs{
+    background-color: #D9D9D9;
+    min-height: 55px;
+    border-color: #000000;
+}
+
+
+
+
 
 .c-footer{
     background-color: #868686;
@@ -31,10 +81,7 @@
     text-align: right;
     margin-top: 10px;
 }
-.main-image {
-    width: 100%;
-    height: auto;
-}
+
 .about-section {
     background-color: #68B691;
     padding: 20px;
@@ -90,11 +137,6 @@ header.container-fluid {
     background-color: #808080; 
     padding: 15px 0; 
 }
-.buttongs{
-    background-color: #D9D9D9;
-    min-height: 55px;
-    border-color: #000000;
-}
 
 .services-header {
     display: inline-block;
@@ -105,26 +147,6 @@ header.container-fluid {
     margin: 30px;
 }
 
-/* Navbar Styles */
-
-nav.navbar {
-    background-color: #d3d3d3; /* Light grey */
-} 
-.navbar-light .navbar-nav .nav-link {
-    color: #343a40;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #007bff;
-}
-
-.navbar-light .navbar-nav .btn-success {
-    background-color: #68B691;
-}
-
-.navbar-light .navbar-nav .btn-success:hover {
-    background-color: #4d9372;
-}
 
 /* Main Image */
 .main-image {
