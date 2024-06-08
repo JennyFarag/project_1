@@ -122,6 +122,39 @@ nav.navbar {
     padding: 20px;
 }
 
+.btn-success {
+    background-color: #68B6B1;
+    border-color: #68B6B1;
+}
+
+.btn-success:hover {
+    background-color: #68B6B1; 
+    border-color:#68B6B1;
+}
+
+.card {
+    width: 100%; 
+   
+}
+
+
+.left-align-container {
+    text-align: left;
+    width: 100%;
+}
+
+
+.left-align-text {
+    display: inline-block; 
+    margin-left: 30px; 
+}
+
+
+.left-align-paragraph {
+    text-align: left;
+}
+
+
 
 
 
@@ -220,14 +253,10 @@ header.container-fluid {
 
 
 
-
-
 .container.my-5 {
     max-width: 900px; 
     margin: 0 auto; /* Center horizontally */
 }
-
-
 
   
 @font-face {
@@ -238,41 +267,11 @@ header.container-fluid {
   }
   
 
-
-
-
-
-
-
-
 .row {
     margin-right: 0;
     margin-left: 0;
 }
 
-
-
-.card {
-    width: 100%; /* Ensure cards do not exceed the width of their containers */
-   
-}
-
-/* Custom left alignment for the container of the Medical Experts heading */
-.left-align-container {
-    text-align: left;
-    width: 100%;
-}
-
-/* Custom left alignment for the Medical Experts heading */
-.left-align-text {
-    display: inline-block; /* Ensures the text does not take full width */
-    margin-left: 30px; /* Add margin if necessary for better alignment */
-}
-
-/* Custom left alignment for paragraphs in the card text */
-.left-align-paragraph {
-    text-align: left;
-}
 
 /* Modal styles */
 .modal .modal-dialog {
