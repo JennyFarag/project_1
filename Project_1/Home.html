@@ -197,7 +197,7 @@
                     <p class="card-text left-align-paragraph">Book a virtual appointment with a Wellness RX Pharmacist for a health consultation.
 
                         Our pharmacists are dedicated to providing personalized care to patients, managing prescriptions, and much more. </p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="popover" title="Pharmacist" data-bs-content="Additional information about Pharmacists.">Learn more</a>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pharmacistModal">Learn more</a>
 
                 </div>
             </div>
@@ -211,7 +211,7 @@
                     <p class="card-text left-align-paragraph">Expertly crafting personalized medications to meet your unique healthcare needs. 
 
                         Our compounding pharmacists specialize in creating medication solutions tailored specifically for you.</p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="popover" title="Pharmacist" data-bs-content="Additional information about Pharmacists.">Learn more</a>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#compoundingModal">Learn more</a>
 
                 </div>
             </div>
@@ -223,9 +223,56 @@
                 <div class="card-body">
                     <h5 class="card-title">Pharmacist Technician</h5>
                     <p class="card-text left-align-paragraph">Supporting pharmacist in delivering high-quality, customized medication solutions. technicians assist with preparing and dispensing medications, and providing patients with exceptional service and care.</p>
-                    <a href="#" class="btn btn-primary" data-bs-toggle="popover" title="Pharmacist" data-bs-content="Additional information about Pharmacists.">Learn more</a>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#technicianModal">Learn more</a>
 
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+ <!-- Pharmacist Modal -->
+ <div class="modal fade" id="pharmacistModal" tabindex="-1" aria-labelledby="pharmacistModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="pharmacistModalLabel">Pharmacist</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Additional information about Pharmacists.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Compounding Pharmacist Modal -->
+<div class="modal fade" id="compoundingModal" tabindex="-1" aria-labelledby="compoundingModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="compoundingModalLabel">Compounding Pharmacist</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Additional information about Compounding Pharmacists.
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- Pharmacist Technician Modal -->
+ <div class="modal fade" id="technicianModal" tabindex="-1" aria-labelledby="technicianModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="technicianModalLabel">Pharmacist Technician</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Additional information about Pharmacist Technicians.
             </div>
         </div>
     </div>
